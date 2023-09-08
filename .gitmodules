@@ -1,0 +1,4 @@
+[submodule "botan"]
+    path = botan
+    url = https://github.com/randombit/botan.git
+    branch = release-1_10
