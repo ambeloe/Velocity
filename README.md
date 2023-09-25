@@ -17,6 +17,11 @@ Velocity is a cross-platform application built using the Qt framework, that allo
 
 Other individual files specific to the Xbox 360 are supported, including the Account file and other minor ones.
 
+Building
+-----
+Debian 12 dependencies: `qtbase5-dev`
+
+
 Licensing Information
 ---------------------
 Velocity is licensed and distributed under the GNU General Public License (v3).
