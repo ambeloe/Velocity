@@ -21,6 +21,11 @@ Building
 -----
 Debian 12 dependencies: `qtbase5-dev`
 
+```
+git clone --recurse-submodules https://github.com/ambeloe/Velocity  
+cd Velocity  
+make
+```
 
 Licensing Information
 ---------------------
