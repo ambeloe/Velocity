@@ -26,8 +26,8 @@ macx {
     LIBS += /usr/local/lib/libbotan-1.10.a
 }
 unix {
-    INCLUDEPATH += /usr/include/botan-1.10
-    LIBS += /usr/lib/libbotan-1.10.so.0
+    INCLUDEPATH += /home/user/git/Velocity/botan/build/include
+    LIBS += /home/user/git/Velocity/botan/libbotan-1.10.a
 }
 
 # phonon, icon

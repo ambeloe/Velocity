@@ -13,7 +13,7 @@ DEFINES += XBOXINTERNALS_LIBRARY
 unix:CONFIG += staticlib app_bundle
 
 # flags (lets step it up a notch)
-QMAKE_CXXFLAGS = -O3
+QMAKE_CXXFLAGS = -O3 -std=c++11
 
 # linking against botan (and adding to include path)
 win32 {
@@ -27,8 +27,8 @@ macx {
     LIBS += /usr/local/lib/libbotan-1.10.a
 }
 unix {
-    INCLUDEPATH += /usr/include/botan-1.10
-    LIBS += /usr/lib/libbotan-1.10.so.0
+    INCLUDEPATH += /home/user/git/Velocity/botan/build/include
+    LIBS += /home/user/git/Velocity/botan/libbotan-1.10.a
 }
 
 SOURCES += \
